@@ -8,11 +8,9 @@ export default function Home() {
       {/* Background image layer */}
       <div
         aria-hidden="true"
-        className="absolute inset-0 bg-center bg-cover -z-10"
+        className="absolute inset-0 bg-center bg-cover -z-20"
         style={{
-          backgroundImage: "url('/positiev_bg.png')",
-          backgroundPosition: "center",
-          backgroundSize: "cover",
+          backgroundImage: "url('/positiev_bg_2.png')",
         }}
       />
 
@@ -60,21 +58,21 @@ export default function Home() {
               aria-label="Twitter"
               className="text-black hover:text-primary transition-colors"
             >
-              <Icon icon="lucide:twitter" width="32" height="32" />
+              <Icon icon="mdi:twitter" width="32" height="32" />
             </a>
             <a
               href="#"
               aria-label="Facebook"
               className="text-black hover:text-primary transition-colors"
             >
-              <Icon icon="lucide:facebook" width="32" height="32" />
+              <Icon icon="mdi:facebook" width="32" height="32" />
             </a>
             <a
               href="#"
               aria-label="Instagram"
               className="text-black hover:text-primary transition-colors"
             >
-              <Icon icon="lucide:instagram" width="32" height="32" />
+              <Icon icon="mdi:instagram" width="32" height="32" />
             </a>
           </div>
         </Container>
