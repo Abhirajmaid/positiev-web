@@ -19,7 +19,11 @@ export default function Home() {
         <Container className="pointer-events-auto">
           <div className="flex items-center justify-between">
             <div className="text-center">
-              <span className="text-xl font-bold text-primary">Positiev</span>
+              <img
+                src="/logo_2.png"
+                alt="Positiev logo"
+                className="h-10 md:h-12 object-contain"
+              />
             </div>
             <div className="text-sm text-darkGray">
               <span>14 days left</span>
@@ -54,11 +58,11 @@ export default function Home() {
         <Container>
           <div className="flex items-center justify-center space-x-6 text-sm text-darkGray">
             <a
-              href="#"
-              aria-label="Twitter"
+              href="https://www.linkedin.com/company/positiev-mobility"
+              aria-label="LinkedIn"
               className="text-black hover:text-primary transition-colors"
             >
-              <Icon icon="mdi:twitter" width="32" height="32" />
+              <Icon icon="mdi:linkedin" width="32" height="32" />
             </a>
             <a
               href="#"

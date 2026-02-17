@@ -1,4 +1,5 @@
 import "./globals.css";
+import "./colors.css";
 import { Poppins, Playfair_Display } from "next/font/google";
 
 // Body text: Poppins. Headings: Playfair Display.

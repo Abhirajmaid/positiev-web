@@ -26,8 +26,8 @@ module.exports = {
         hero: 'clamp(4.77rem, 7.48vw + 2.9rem, 6rem)'
       },
       colors: {
-        // Marple palette (from provided image)
-        primary: '#CA2851',
+        // Marple palette (from provided image) — updated primary color
+        primary: '#f58c78',
         'primary-foreground': '#ffffff',
         secondary: '#FF6766',
         'secondary-foreground': '#ffffff',
@@ -38,10 +38,10 @@ module.exports = {
         // Utilities / system colors
         input: '#d1d1d1',
         background: '#ffffff',
-        'text-primary': '#CA2851',
+        'text-primary': '#f58c78',
         complementary: '#79c4f4',
-        lightPrimary: '#FF9A8A',
-        darkPrimary: '#9b1f44',
+        lightPrimary: '#ffb3a8',
+        darkPrimary: '#b25f52',
         lightGray: '#f0f0f0',
         mediumGray: '#d1d1d1',
         darkGray: '#333333',
