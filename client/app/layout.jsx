@@ -1,6 +1,7 @@
 import "./globals.css";
 import "./colors.css";
 import { Poppins, Playfair_Display } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 // Body text: Poppins. Headings: Playfair Display.
 const poppins = Poppins({
@@ -37,6 +38,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.variable} ${playfair.variable}`}>
         <main>{children}</main>
+        <Analytics />
       </body>
     </html>
   );
